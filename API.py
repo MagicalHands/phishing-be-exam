@@ -12,7 +12,7 @@ def get_prediction(url, model_path):
     model = keras.models.load_model(model_path)
 
     print("Extracting features from url...")
-    url_features = extract_features(url)
+    url_features = extract_features(url), dtype=np.float32
     print(url_features)
 
     print("Making prediction...")
