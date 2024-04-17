@@ -11,7 +11,7 @@ model_path = r"C:\Users\Calvin\phishing dp project exam\Phishing-Attack-Domain-D
 #url = "www.tesla.com/"
 
 def main():
-    st.title("CyberKavach Phishing URL Detector)
+    st.title("CyberKavach Phishing URL Detector")
     html_temp = """
     <div style="background-color:#025246 ;padding:10px">
     <h2 style="color:white;text-align:center;">Phishing URL Detector </h2>
