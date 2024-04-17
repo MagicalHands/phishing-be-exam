@@ -20,7 +20,8 @@ def get_prediction(url, model_path):
 
     i = prediction[0][0] * 100
     i = round(i,3)
-    print("There is ",i,"% chance,the url is malicious !")
+    # print("There is ",i,"% chance,the url is malicious !")
+    print(" ")
 
     return i
 
